@@ -19,7 +19,7 @@ now I assume you have docker compatible kernel on your device now you need to in
 
 ```bash
 pkg install root-repo && pkg install docker
-pkg install golang make cmake ndk-multilib tsu
+pkg install wget golang make cmake ndk-multilib tsu
 ```
 after that you have to install tini but you have to compile it manually on your device with
 
