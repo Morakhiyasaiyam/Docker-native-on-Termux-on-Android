@@ -87,3 +87,7 @@ ns
 ds
 ```
 Now you can run docker successfully
+
+Thanks to :
+- [FreddieOliveira](https://github.com/FreddieOliveira) for making it work for android.
+- [termux](https://github.com/termux) for their amazing app.
