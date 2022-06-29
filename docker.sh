@@ -10,9 +10,9 @@ sudo mount -t cgroup -o devices cgroup /sys/fs/cgroup/devices
 
 # It will check if /var/run/ folder already created and creat if not
 
-if [ ! -d "/var/run/"]
-then
-    mkdir /var/run/
+DIRECTORY=/var/run/
+if [ ! -d "$DIRECTORY" ]; then
+  mkdir -p /var/run/
 fi
 
 # It will mount run folder location of docker to official location
