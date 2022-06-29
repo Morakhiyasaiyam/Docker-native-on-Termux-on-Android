@@ -97,6 +97,7 @@ now save file and exit from termux and restart termux app
 ns
 ds
 ```
+Everytime you chenge network you also have to run network script with "ns" command 
 Now you can run docker successfully
 
 Thanks to :
