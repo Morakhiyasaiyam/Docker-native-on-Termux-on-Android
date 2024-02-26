@@ -12,7 +12,7 @@ sudo mount -t cgroup -o devices cgroup /sys/fs/cgroup/devices
 
 DIRECTORY=/var/run/
 if [ ! -d "$DIRECTORY" ]; then
-  mkdir -p /var/run/
+  mkdir -p /var/run/
 fi
 
 # It will mount run folder location of docker to official location
